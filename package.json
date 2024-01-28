@@ -1,0 +1,24 @@
+{
+  "name": "observable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.mjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "sideEffects": ["dist/polyfill.mjs"],
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "tsx ./test/run.mts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@8.14.3+sha256.2d0363bb6c314daa67087ef07743eea1ba2e2d360c835e8fec6b5575e4ed9484",
+  "devDependencies": {
+    "@biomejs/biome": "1.5.3",
+    "es-observable-tests": "^0.3.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
